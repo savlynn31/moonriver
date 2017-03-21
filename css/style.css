@@ -1,0 +1,460 @@
+/*
+
+#e5e5e5 Light Gray
+#cfe9e2 Teal
+#979293 Dark Gray
+#f9f2f5 Blush
+#e5edf7 powder blue
+
+*/
+
+@font-face {
+	font-family: Autumn;
+	src: url("../autumn.ttf");
+}
+
+h2, h3, ul, p, label, button, input, textarea {
+ 	font-family: 'Josefin Sans';
+ 	color: #979293;
+ }
+
+ .border {
+ 	border: 2px solid #e5e5e5;
+ }
+
+ .line {
+ 	width: 80%;
+ 	height: 2px;
+ 	background: #e5e5e5;
+ 	margin: auto;
+ }
+
+/*******************
+ Social Media Links
+ ******************/
+
+.social {
+	list-style-type: none;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.social li {
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.social li:hover .svg {
+	transition: transform .5s ease-in-out;
+
+}
+
+.social li:hover .svg {
+	transform: scale(1.2) rotate(-360deg);
+}
+
+.svg {
+	height: 30px;
+	width: 30px;
+}
+
+ /*******************
+ 	 Title Logo
+ ******************/
+
+
+h1 {
+ 	font-family: 'Autumn', cursive;
+ 	font-size: 5em;
+ 	color: #cfe9e2;
+ }
+
+ h1, h2 {
+ 	text-align: center;
+ 	letter-spacing: 10px;
+ }
+
+ h2 {
+ 	margin-top: -70px;
+ 	margin-left: 130px;
+ 	font-size: 2em;
+ }
+
+  /*******************
+ 	 Navigation
+ ******************/
+
+ .nav ul {
+ 	list-style-type: none;
+ 	margin-top: 50px;
+ 	margin-bottom: 50px;
+ 	list-style-position: inside;
+ 	padding: 0;
+ }
+
+ .nav a, .nav a:visited {
+ 	text-decoration: none;
+ 	color: #979293;
+ }
+
+ .nav li {
+ 	text-align: center;
+ 	height: 30px;
+ 	background: #f9f2f5;
+ 	width: 60%;
+ 	margin: 5px auto;
+ 	list-style-type: none;
+ 	list-style-position: inside;
+ 	padding-top: 15px;
+ 	transition: background .5s ease-in-out, font-size .5s ease-out;
+ }
+
+ .nav li:hover {
+ 	background: #e5edf7;
+ 	font-size: 1.2em;
+ }
+
+
+  /*******************
+ 	 Flower Box
+ ******************/
+
+ .flowerbox {
+ 	width: 80%;
+ 	margin: 20px auto;
+ 	height: 40%;
+ }
+
+ .flowersLarge {
+ 	height: 77%;
+ 	width: 96%;
+ 	padding: 2%;
+
+ }
+
+ /*******************
+ 	 Links
+ ******************/
+
+ .linkscontainer {
+ 	width: 80%;
+ 	height: 200px;
+ 	margin: 30px auto 0px;
+ 	border: none;
+ 	display: flex;
+ }
+
+ .links {
+ 	flex-grow: 1;
+ 	height:100%;
+ }
+
+ .portfolioLink {
+ 	background: url("../portfoliolink.jpg") no-repeat;
+ 	background-size: 100%;
+ }
+
+ .blogLink {
+ 	background: url("../blogLink.jpg") no-repeat;
+ 	background-size: 100%;
+ }
+
+ .contactLink {
+ 	background: url("../contactLink.jpg") no-repeat;
+ 	background-size: 100%;
+ }
+
+ .margin {
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ }
+
+ .fix {
+ 	margin-top: -80px;
+ }
+
+ /*******************
+ 	Two Boxes
+ *******************/
+
+ .photoContainer {
+ 	width: 80%;
+ 	margin: 30px auto;
+ }
+
+ .cameraContainer, .girlContainer {
+ 	width: 100%;
+ 	margin: auto;
+ }
+
+ .girlContainer {
+ 	margin-top: 30px;
+ }
+
+ .girlContainer img, .cameraContainer img {
+ 	width: 100%;
+ 	padding: 4%;
+ 	text-align: center;
+ }
+
+/*******************
+ 	   Blog
+ *******************/
+
+ .blogContainer {
+ 	width: 80%;
+ 	margin: 40px auto;
+ }
+
+.whitebox {
+	background: #fff;
+	margin: 20px;
+	border-top: 50px solid #cfe9e2;
+	border-bottom: 50px solid #cfe9e2;
+	border-left: 25px solid #cfe9e2;
+	border-right: 25px solid #cfe9e2;
+
+}
+
+.blogtitle {
+	font-family: 'Autumn';
+	transition: transform 1s ease-out;
+	margin: 30px;
+	font-size: 1.5em;
+}
+
+.blogtitle:hover {
+	transform: rotate3d(1, 0, 0, 360deg);
+}
+
+p {
+	margin: 30px;
+}
+
+ /*******************
+ 	  Portfolio
+ *******************/
+
+ #portfolio {
+ 	width: 80%;
+ 	height: 800px;
+ 	margin: 40px auto;
+ }
+
+ .blue {
+ 	background:#e5edf7;
+ }
+
+ .box1 {
+ 	width: 40%;
+ 	height: 150px;
+ 	margin: 3%;
+ 	float: left;
+ }
+
+ .camerarow1 {
+ 	width: 51%;
+ 	float: left;
+ 	height: 150px;
+ 	margin: 3% 3% 3% 0;
+ 	background: url("../camerazoom.jpg") no-repeat;
+ 	background-size: 100% 100%;
+ }
+
+ .flowersrow1 {
+ 	width: 56%;
+ 	float: left;
+ 	height: 200px;
+ 	margin: 0 3% 3% 3%;
+ 	background: url("../pinkroses.jpeg") no-repeat;
+ 	background-size: 100% 100%;
+ }
+
+ .box2 {
+ 	width: 35%;
+ 	float: left;
+ 	height: 200px;
+ 	margin: 0 3% 3% 0;
+ }
+
+ .box3 {
+ 	height: 160px;
+ 	width: 56%;
+ 	float: left;
+ 	margin: 0 3% 3% 3%;
+
+ }
+
+ .flowersrow2 {
+ 	height: 250px;
+ 	width: 35%;
+ 	background: url("../jar.jpeg") no-repeat;
+ 	background-size: 100% 100%;
+ 	float: left;
+ 	margin: 0 3% 3% 0;
+ }
+
+ .typewriter {
+ 	height: 200px;
+ 	width: 55%;
+ 	background: black;
+ 	float: left;
+ 	margin: -87px 3% 3% 3%;
+ 	background: url("../keyboard.jpg") no-repeat;
+ 	background-size: 100% 100%;
+ }
+
+ .box4 {
+ 	height: 113px;
+ 	width: 35%;
+ 	float: left;
+ 	margin: 0 3% 3% 0;
+ }
+
+ /*******************
+ 	   Contact
+ *******************/
+
+ #contact .whitebox {
+ 	border-top: 50px solid #f9f2f5;
+	border-bottom: 50px solid #f9f2f5;
+	border-left: 25px solid #f9f2f5;
+	border-right: 25px solid #f9f2f5;
+ }
+
+ input, textarea, button {
+ 	width: 80%;
+ 	height: 50px;
+ 	border-radius: 4px;
+ 	border: none;
+ 	background: #f9f2f5;
+ 	box-sizing: border-box;
+ }
+
+button {
+	transition: font-size .2s ease-in-out;
+}
+
+button:hover {
+	font-size: 1.8em;
+}
+
+
+input:hover, textarea:hover, input:focus, textarea:focus{
+	background: #fff;
+	border: 4px solid #cfe9e2;
+	outline: none;
+}
+
+
+ textarea {
+ 	height: 150px;
+ 	font-size: 1.3em;
+ }
+
+ label, textarea, input {
+ 	margin-left: 10%;
+ }
+
+ input, textarea {
+ 	margin-bottom: 30px;
+ }
+
+ input {
+ 	margin-top: 10px;
+ 	font-size: 1.2em;
+ }
+
+ button {
+ 	font-size: 1.5em;
+ 	margin-left: 10%;
+ 	margin-bottom: 30px;
+ 	box-shadow: 2px 2px 4px 1px rgba(151,146,147,1);
+ 	background: #cfe9e2;
+ }
+
+
+
+ /*******************
+ 	  Media Queries
+ *******************/
+
+ @media (min-width: 768px) {
+
+ .nav ul {
+  	text-align: center;
+ }
+
+  .nav li {
+ 	display: inline-block;
+ 	background: #fff;
+ 	width: 85px;
+ 	height: 20px;
+ 	margin-left: 15px;
+ 	margin-right: 15px;
+ 	padding-top: 8px;
+ 	border-radius: 4px;
+ }
+
+ .nav li:hover {
+ 	background: #f9f2f5;
+ 	font-size: 1em;
+ }
+
+  .margin {
+ 	margin-left: 30px;
+ 	margin-right: 30px;
+ }
+
+ .fix {
+ 	margin-top: 0;
+ }
+
+ .photoContainer {
+ 	display: flex;
+ 	height: 320px;
+ }
+
+ .girlContainer, .cameraContainer {
+ 	margin: 0;
+ }
+
+ .girlContainer {
+ 	margin-left: 10%;
+ 	margin-right: 20px;
+ }
+
+ .box1, .camerarow1 {
+ 	height: 200px;
+ }
+
+ .flowersrow1, .box2 {
+ 	height: 250px;
+ }
+
+ .flowersrow2 {
+ 	height: 300px;
+ }
+
+ #portfolio {
+ 	height: 1050px;
+ }
+
+ .typewriter {
+ 	margin-top: -140px;
+ 	height: 300px;
+ }
+
+ .box4 {
+ 	height: 160px;
+ }
+
+ input {
+ 	margin-top: 0;
+ 	margin-left: 5%;
+ 	width: 69%;
+ }
+
+
+}
+ 
